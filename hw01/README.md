@@ -1,5 +1,5 @@
-Aekta Shah
-shahae
-https://github.com/aektashah/cs4550
-snflwr.io
-Have completed these Codecademy courses in the past (before this class). 
+Aekta Shah <br />
+shahae <br />
+https://github.com/aektashah/cs4550 <br />
+snflwr.io <br />
+Have completed these Codecademy courses in the past (before this class). <br />
