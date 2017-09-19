@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Design</title>
+    </head>
+
+    <body>
+        <h2>User First Design</h2>
+        <p><strong>As a new user, I should be able to register an account.</strong></p>
+        <ul>
+            <li>Alice first visits the home page.</li>
+    	<li>She clicks the “Register Account" link and this brings her to the “New Account” form.</li> 
+    	<li>She enters her full name, email address, username, and password into the form & clicks “Submit”.</li>
+    	<li>She waits for an email to confirm her email address.</li>
+    	<li>She clicks the link in the email & her new account is ready to use.</li>
+        </ul>
+
+        <p><strong>As a normal user, I should be able to post a message to my account.</strong></p>
+        <ul>
+            <li>Alice logs into her account.</li>
+            <li>She clicks “Write Message” on her account.</li>
+            <li>She enters a message including optional hashtags and mentions.</li>
+            <li>She clicks “Post” and the message shows up publicly on the site.</li>
+        </ul>
+
+        <p><strong>As a normal user, I should be able to search for and browse through the accounts of other people.</strong></p>
+        <ul>
+            <li>Alice logs into her account.</li>
+            <li>She clicks on a search bar.</li>
+            <li>She types in a username.</li>
+            <li>She clicks “Search” or hits Enter on her keyboard.</li>
+            <li>A list of results appear and she can scroll through and browse a list of accounts on the website.</li>
+        </ul>
+
+        <p><strong>As a normal user, I should be able to follow the accounts of other people.</strong></p>
+        <ul>
+            <li>Alice logs into her account.</li>
+            <li>She searches for another account.</li>
+            <li>She navigates to a person’s account profile.</li>
+            <li>She clicks “Follow” in order to see that person’s messages on her home page.</li>
+        </ul>
+
+        <p><strong>As a normal user, I should be able to see the messages of people I follow in one place.</strong></p>
+        <ul>
+            <li>Alice logs into her account.</li>
+            <li>On her homepage, she can scroll and see the messages of all the people she follows.</li>
+        </ul>
+
+        <p><strong>As a normal user, I should be able to link/mention the accounts of other people in my messages.</strong></p>
+        <ul>
+            <li>Alice logs into her account.</li>
+            <li>She clicks on “Write Message” on her account.</li>
+            <li>She types a message that includes another account’s username with the “@“ symbol in front of it in order to link that account to her message.</li>
+            <li>She clicks “Post”, the message becomes public, and that other account is now linked to that message.</li>
+        </ul>
+
+        <p><strong>As a normal user, I should be search for messages that contain a specific tag word or phrase.</strong></p>
+        <ul>
+            <li>Alice logs into her account.</li>
+            <li>She clicks on a search bar.</li>
+            <li>She types in a word or phrase with a “#” in front of it.</li>
+            <li>She clicks “Search” or hits Enter on her keyboard.</li>
+            <li>A list of results appear and she can scroll through and browse a list of messages on the website that include that hashtag.</li>
+        </ul>
+
+        <br>
+
+        <h2>Data First Design</h2>
+
+        <h3><strong>User/Account</strong></h3>
+        <p><u>Fields</u></p>
+            <ul>
+                <li>Full Name</li>
+                <li>Email</li>
+                <li>Username</li>
+                <li>Password</li>
+                <li>Following</li>
+                <li>Followers</li>
+            </ul>
+
+        <p><u>RESTful Routes</u></p>
+            <ul>
+                <li>Create - A new profile is created.</li>
+                <li>Show - A user account becomes public, viewable, and searchable on the website.</li>
+                <li>Update - Any changes in user information gets changed everywhere.</li>
+                <li>Delete - There is an option on this page to remove the user from the website completely.</li>
+                <li>Edit - A user can update the initial information (email, name, username, password) in a form.</li>
+                <li>New - Form containing input boxes for user’s full name, email, username, and password.</li>
+                <li>Index - Has a list of all accounts on the website. </li>
+            </ul> 
+
+        <h3><strong>Message</strong></h3>
+        <p><u>Fields</u></p>
+            <ul>
+                <li>Text/Body</li>
+                <li>Hashtags</li>
+                <li>Mentions</li>
+            </ul>
+
+        <p><u>RESTful Routes</u></p>
+            <ul>
+                <li>Create - A message is posted.</li>
+                <li>Show -  A message becomes visible everywhere/publicly (on a profile page or general news feed.)</li>
+                <li>Update - After making an edit, a user can click “Update” and the text message should change everywhere that it’s visible on the website.</li>
+                <li>Delete - Has the option to delete a message that has been posted and after clicking “Delete”, the post should disappear from the website.</li>
+                <li>Edit - A user can change or retype the message by clicking “Edit” and typing into a text input box.</li>
+                <li>New - Form containing a text input box for a user to type in their message and a button to post it to their account.</li>
+                <li>Index - Shows all messages.</li>
+            </ul> 
+
+    </body>
+</html>

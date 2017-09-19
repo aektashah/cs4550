@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Message-New</title>
+
+    	<!-- Bootstrap CSS -->
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-dark bg-dark navbar-expand-md">
+	     	<a class="navbar-brand" href="#">MicroBlog</a>
+
+	      	<button class="navbar-toggler" type="button"
+	              data-toggle="collapse" data-target="#main-navbar">
+	        	<span class="navbar-toggler-icon"></span>
+	      	</button>
+
+		      	<div class="collapse navbar-collapse" id="main-navbar">
+		        	<ul class="navbar-nav mr-auto">
+		        		<li class="nav-item">
+		            		<a class="nav-link" href="user-new.html">Create An Account</a>
+		          		</li>
+			          	<li class="nav-item">
+			            	<a class="nav-link" href="user-show.html">Profile</a>
+			          	</li>		          		
+		          		<li class="nav-item active">
+		            		<a class="nav-link" href="#">Post a Message</a>
+		          		</li>
+		          		<li class="nav-item">
+	            			<a class="nav-link" href="user-index.html">Users</a>
+	         			</li>
+	         			<li class="nav-item">
+		            		<a class="nav-link" href="message-index.html">Messages</a>
+		        		</li>
+		        	</ul>
+		      	</div>
+
+		      	<form class="form-inline w-25">
+		        	<input type="text" placeholder="email" class="form-control">
+		        	<input type="submit" value="Log in" class="btn btn-primary">
+		      	</form>
+	    </nav>
+
+	    <div class="container">
+	      	<div class="row">
+	        	<div class="col-md-12">
+	        		<br>
+	          		<h1>New Message</h1>
+
+			        	<form>
+				            <div class="form-group">
+				              <label for="desr">Message</label>
+				              <textarea name="desr" class="form-control"></textarea>
+				            </div>			            
+				            <button type="submit" class="btn btn-primary">Post</button>
+			          	</form>
+	        	</div>
+	      	</div>
+	    </div>	
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	    <script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
